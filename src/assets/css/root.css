@@ -1,0 +1,205 @@
+:root {
+    --fs-xs: 14px;
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-lg: 24px;
+    --fs-xl: 32px;
+    --fs-2xl: 28px;
+    --fs-3xl: 30px;
+    --fs-4xl: 40px;
+    --fs-5xl: 44px;
+    --fs-6xl: 79px;
+    --fss-7xl: 90px;
+
+    --lh-17: 17px;
+    --lh-19: 19px;
+    --lh-24: 24px;
+    --lh-25: 25px;
+    --lh-29: 29px;
+    --lh-30: 30px;
+    --lh-32: 32px;
+    --lh-43: 38px;
+    --lh-48: 48px;
+    --lh-58: 58px;
+    --lh-77: 60px;
+    --lh-95: 95px;
+    --lh-130: 100px;
+
+    --black: #000000;
+    --white: #FFFFFF;
+    --yellow:#FC9800;
+    --gray: #808080;
+}
+
+
+
+
+.bg-yellow{
+    background-color: var(--yellow);
+}
+.color-yellow{
+    color: var(--yellow);
+}
+
+
+.lh-17 {
+    line-height: var(--lh-17);
+}
+
+.lh-19 {
+    line-height: var(--lh-19);
+}
+
+.lh-24 {
+    line-height: var(--lh-24);
+}
+
+.lh-25 {
+    line-height: var(--lh-25);
+}
+
+.lh-29 {
+    line-height: var(--lh-29);
+}
+
+.lh-30 {
+    line-height: var(--lh-30);
+}
+
+.lh-32 {
+    line-height: var(--lh-32);
+}
+
+.lh-43 {
+    line-height: var(--lh-43);
+}
+
+.lh-48 {
+    line-height: var(--lh-48);
+}
+
+.lh-58 {
+    line-height: var(--lh-58);
+}
+
+.lh-77 {
+    line-height: var(--lh-77);
+}
+
+.lh-95 {
+    line-height: var(--lh-95);
+}
+
+.lh-130 {
+    line-height: var(--lh-130);
+}
+
+.fs-14 {
+    font-size: var(--fs-xs);    
+}
+
+.fs-16 {
+    font-size: var(--fs-sm);
+}
+
+.fs-20 {
+    font-size: var(--fs-md);
+}
+
+.fs-24 {
+    font-size: var(--fs-lg);
+}
+
+.fs-32 {
+    font-size: var(--fs-xl);
+}
+
+.fs-36 {
+    font-size: var(--fs-2xl);
+}
+
+.fs-40 {
+    font-size: var(--fs-3xl);
+}
+
+.fs-48 {
+    font-size: var(--fs-4xl);
+}
+
+.fs-64 {
+    font-size: var(--fs-5xl);
+}
+
+.fs-79 {
+    font-size: var(--fs-6xl);
+}
+
+.fs-108 {
+    font-size: var(--fss-7xl);
+}
+
+
+@media (min-width:575px) {
+    :root {
+        --fs-xs: 14px;
+        --fs-sm: 16px;
+        --fs-md: 20px;
+        --fs-lg: 24px;
+        --fs-xl: 32px;
+        --fs-2xl: 36px;
+        --fs-3xl: 40px;
+        --fs-4xl: 48px;
+        --fs-5xl: 64px;
+        --fs-6xl: 79px;
+        --fss-7xl: 108px;
+    
+        --lh-17: 17px;
+        --lh-19: 19px;
+        --lh-24: 24px;
+        --lh-25: 25px;
+        --lh-29: 29px;
+        --lh-30: 30px;
+        --lh-32: 32px;
+        --lh-43: 43px;
+        --lh-48: 48px;
+        --lh-58: 58px;
+        --lh-77: 77px;
+        --lh-95: 95px;
+        --lh-130: 130px;
+    
+   
+    }
+}
+@media (min-width:992px) {
+    :root {
+        --fs-xs: 14px;
+        --fs-sm: 16px;
+        --fs-md: 20px;
+        --fs-lg: 24px;
+        --fs-xl: 32px;
+        --fs-2xl: 36px;
+        --fs-3xl: 40px;
+        --fs-4xl: 48px;
+        --fs-5xl: 64px;
+        --fs-6xl: 79px;
+        --fss-7xl: 108px;
+    
+        --lh-17: 17px;
+        --lh-19: 19px;
+        --lh-24: 24px;
+        --lh-25: 25px;
+        --lh-29: 29px;
+        --lh-30: 30px;
+        --lh-32: 32px;
+        --lh-43: 43px;
+        --lh-48: 48px;
+        --lh-58: 58px;
+        --lh-77: 77px;
+        --lh-95: 95px;
+        --lh-130: 130px;
+    
+        
+    }
+
+    
+}
